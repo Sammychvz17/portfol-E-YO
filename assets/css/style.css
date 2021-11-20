@@ -1,0 +1,73 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-color: #F2E2C4;
+    color: #273859;
+    
+}
+
+header {
+    justify-content: space-between;
+    background-color: #F2AD94;
+    background-size: cover;
+    padding: 20px 35px;
+}
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: #273859;
+  margin: 0;
+  display: inline;
+
+}
+header a {
+    text-decoration: none;
+    color: #273859;
+    float: left;
+    text-decoration: underline;
+    
+}
+
+header nav {
+    float: right;
+    margin: 7px 0; 
+   
+}    
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    inline-size: auto;
+}
+
+header nav ul li {
+    display: inline;
+    
+}
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+    font-weight: bold;
+    
+  }
+
+.jumbotron {
+    background-image: url("../images/pexels-simon-berger-1323550.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-position: 90%;
+    padding: 100px;
+    
+}
+.subtitle {
+    padding-left: 850px;
+    font-size: 36px;
+}
