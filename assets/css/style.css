@@ -27,6 +27,11 @@
 #linkedin {
     color: #273859;
 }
+.content img {
+    max-width: 250px;
+    border-radius: 50%;
+    border: #273859 5px solid;
+}
 
 body {
     background-color: #F2E2C4;
