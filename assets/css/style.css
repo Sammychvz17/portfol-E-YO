@@ -29,7 +29,7 @@
 }
 #linkedin:hover{
     background-color: #273859;
-    color: #F2A679;
+    color: white;
     border-radius: 5px;
 
 }
@@ -95,7 +95,7 @@ header nav ul li a {
   }
 header nav ul li a:hover{
   background: #273859;
-  color: #F2AD94;
+  color: white;
   border-radius: 5px;
   text-shadow: none;
 
