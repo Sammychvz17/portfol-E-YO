@@ -5,6 +5,29 @@
   padding: 0;
 }
 
+#contact-me, #my-work, #about-me {
+    
+    flex: 50%;
+    display: flex;
+    
+}
+#my-work a {
+    background-image: url(../images/hero-bg.jpeg);
+    display: block;
+    height: 500px;
+    width: 500px;
+    background-position: right;
+    background-size: cover;
+    text-align: center;
+    display: block;
+   
+    
+}
+
+#linkedin {
+    color: #273859;
+}
+
 body {
     background-color: #F2E2C4;
     color: #273859;
@@ -29,7 +52,7 @@ header a {
     text-decoration: none;
     color: #273859;
     float: left;
-    text-decoration: underline;
+    
     
 }
 
@@ -57,6 +80,24 @@ header nav ul li a {
     font-weight: bold;
     
   }
+footer {
+    background-color: #F2AD94;
+    padding: 5%;
+    text-align: center;
+    border: #273859 solid 5px;
+
+}
+
+
+.section h2 {
+    
+    text-align: center;  
+    font-size: 48px;
+    justify-content: space-between;
+    padding: 30px 50px;
+    border-right: #273859 solid 5px;
+  }
+
 
 .jumbotron {
     background-image: url("../images/pexels-simon-berger-1323550.jpg");
@@ -65,9 +106,40 @@ header nav ul li a {
     background-size: cover;
     background-position: 90%;
     padding: 100px;
+    border: #273859 solid 5px;
     
 }
 .subtitle {
-    padding-left: 850px;
+    padding-left: 800px;
     font-size: 36px;
+    text-align: center;
 }
+.section div {
+    padding: 10%;
+    
+}
+.content {
+    text-align: center;
+    justify-content: center;
+    display: inline;
+    font-size: larger;
+    margin-bottom: 5%;
+    
+}
+.section {
+    background-color: #F2A679;
+    border: #273859 solid 5px;
+    margin: 5%;
+}
+
+.run-buddy {
+    font-size: 32px;
+    text-decoration: none;
+    padding: 40%;
+    color: #273859;
+    border-radius: 15%;
+    border: #273859 solid 5px;
+
+
+}
+    
