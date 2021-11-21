@@ -27,10 +27,18 @@
 #linkedin {
     color: #273859;
 }
+#linkedin:hover{
+    background-color: #273859;
+    color: #F2A679;
+    border-radius: 5px;
+
+}
 .content img {
     max-width: 250px;
     border-radius: 50%;
     border: #273859 5px solid;
+    margin: 30px;
+    
 }
 
 body {
@@ -85,6 +93,14 @@ header nav ul li a {
     font-weight: bold;
     
   }
+header nav ul li a:hover{
+  background: #273859;
+  color: #F2AD94;
+  border-radius: 5px;
+  text-shadow: none;
+
+}
+
 footer {
     background-color: #F2AD94;
     padding: 5%;
