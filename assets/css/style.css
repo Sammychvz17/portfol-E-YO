@@ -163,4 +163,9 @@ footer {
 
 
 }
+.run-buddy:hover {
+    text-decoration: underline;
+    color: skyblue;
+    border: skyblue solid 5px;
+}
     
