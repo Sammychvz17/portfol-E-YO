@@ -12,7 +12,7 @@
     
 }
 #my-work a {
-    background-image: url(../images/hero-bg.jpeg);
+    
     display: block;
     height: 500px;
     width: 500px;
@@ -20,6 +20,12 @@
     background-size: cover;
     text-align: center;
     display: block;
+    font-size: 32px;
+    text-decoration: none;
+    padding: 40%;
+    color: #273859;
+    border-radius: 15%;
+    border: #273859 solid 5px;
    
     
 }
@@ -144,7 +150,8 @@ footer {
     justify-content: center;
     display: inline;
     font-size: larger;
-    margin-bottom: 5%;
+    justify-content: space-around;
+    margin: 5px;
     
 }
 .section {
@@ -154,6 +161,7 @@ footer {
 }
 
 .run-buddy {
+    background-image: url(../images/hero-bg.jpeg);
     font-size: 32px;
     text-decoration: none;
     padding: 40%;
@@ -167,5 +175,9 @@ footer {
     text-decoration: underline;
     color: skyblue;
     border: skyblue solid 5px;
+}
+
+.covid-track {
+    background-color: lightgray;
 }
     
